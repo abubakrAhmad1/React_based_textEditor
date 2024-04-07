@@ -1,13 +1,24 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import reportWebVitals from "./reportWebVitals";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+import App from "./App";
+import Nav from "./components/Nav";
+import Display from "./components/Display";
+import CaseConver from "./components/CaseConverApp";
+import About from './components/About'
+
+import { BrowserRouter,Switch, Routes, Route } from 'react-router-dom';
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <App />
+  <CaseConver />
+  
+    {/* <Nav /> */}
+    {/* <Display/> */}
+    {/* <App/> */}
   </React.StrictMode>
 );
 

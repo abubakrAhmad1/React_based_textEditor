@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
+import Display from './components/Display'
+import Nav from './components/Nav';
 
 function App() {
   return (
@@ -15,11 +17,12 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Learn React with abubakar
         </a>
       </header>
     </div>
-  );
+
+      );
 }
 
 export default App;
